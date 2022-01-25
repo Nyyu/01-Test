@@ -3,7 +3,7 @@
 ```markdown
 ### Simple design "website"
 
-- if for any goddam reason you wanna spend your time and see this, go ahead and do it: [Link](https://nyyu.github.io/01-Test)
+- if for any goddam reason you wanna spend your time and see this, go ahead and do it: [Link](https://nyyu.github.io/01-Test/)
 
 ```
 
