@@ -7,7 +7,7 @@
 
 ```
 
-Git link: [Link](https://nyyu.github.io/01-Test/) 
+Git link: [Link](https://nyyu.github.io/01-Test/); ``cof cof.. not responsive..``
 
 ```markdown
 
