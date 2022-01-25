@@ -3,7 +3,7 @@
 ```markdown
 ### Simple design "website"
 
-- if for any goddam reason you wanna spend your time and see this, go ahead and do it
+- if for any goddam reason you wanna spend your time to see this, go ahead and do it
 
 ```
 
