@@ -1,4 +1,4 @@
-let play, back, forth, repeat, shuffle, options, returnPage, optionArea;
+let play, back, forth, repeat, shuffle, options, returnPage, optionArea, counter, cBool;
 
 // Variables
 
@@ -20,8 +20,10 @@ play.addEventListener("click", () => {
         '<i class="fas fa-play-circle fa-6x" aria-hidden="true"></i>'
     ) {
         play.innerHTML = '<i class="fas fa-pause-circle fa-6x"></i>';
+        cBool = true;
     } else {
         play.innerHTML = '<i class="fas fa-play-circle fa-6x"></i>';
+        cBool = false;
     }
 });
 
@@ -32,3 +34,9 @@ options.addEventListener("click", function() {
         optionArea.classList.add("visible");
     }
 });
+
+setTimeout(() => {
+    while(cBool) {
+        counter+=1;
+    }
+}, 1000);
