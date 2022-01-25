@@ -1,4 +1,4 @@
-let play, back, forth, repeat, shuffle, options, returnPage, optionArea, counter, cBool;
+let play, back, forth, repeat, shuffle, options, returnPage, optionArea, cBool, counter;
 
 // Variables
 
@@ -11,6 +11,7 @@ shuffle = document.querySelector(".fa-random");
 options = document.querySelector(".fa-ellipsis-h");
 optionArea = document.querySelector(".option-area");
 returnPage = document.querySelector(".fa-angle-left");
+counter = document.querySelector(".time");
 
 // Functions - Methods
 
@@ -34,9 +35,3 @@ options.addEventListener("click", function() {
         optionArea.classList.add("visible");
     }
 });
-
-setTimeout(() => {
-    while(cBool) {
-        counter+=1;
-    }
-}, 1000);
