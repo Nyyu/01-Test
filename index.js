@@ -10,10 +10,14 @@ shuffle = document.querySelector(".fa-random");
 
 options = document.querySelector(".fa-ellipsis-h");
 optionArea = document.querySelector(".option-area");
-returnPage = document.querySelector(".fa-angle-left");
+returnPage = document.querySelector(".fa-angle-left"); 
 counter = document.querySelector(".time");
 
 // Functions - Methods
+
+returnPage.addEventListener("click", () => {
+    return (location.href = "https://github.com/Nyyu/01-Test");
+});
 
 play.addEventListener("click", () => {
     if (
