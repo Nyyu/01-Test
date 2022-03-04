@@ -28,10 +28,10 @@ play.addEventListener("click", () => {
     }
 });
 
-options.addEventListener("click", function () {
+/*options.addEventListener("click", function () {
     if (optionArea.classList.contains("visible")) {
         optionArea.classList.remove("visible");
     } else {
         optionArea.classList.add("visible");
     }
-});
+}); */
