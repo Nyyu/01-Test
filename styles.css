@@ -41,6 +41,10 @@ div .m-img {
     width: 45%;
 }
 
+.fa-step-backward:hover {
+    cursor: pointer;
+}
+
 .m-img {
     position: relative;
     height: 40rem;
